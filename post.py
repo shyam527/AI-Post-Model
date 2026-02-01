@@ -17,7 +17,7 @@ except Exception as e:
 st.title("Boom AI")
 st.markdown("--------")
 
-st.write("Enter your Prompt and get your caption for your Post")
+st.write("Enter your prompt to get the perfect caption for your post")
 topic = st.text_area("What is your post about?", placeholder= "Ex: Nature")
 language = st.selectbox(
         "Select Language :", 
