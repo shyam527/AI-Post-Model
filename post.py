@@ -45,6 +45,18 @@ if generate_btn:
             1. Start with a catchy Hook/Headline
             2. Use Bullet Points
             3. Add 5 hashtags
+            4. Keep the post under 120 words
+            5. Use short, punchy sentences
+            6. Avoid generic phrases like "In today’s world"
+            7. Make the tone inspiring and confident
+            8. End with a strong Call-To-Action (question or opinion)
+            9. Use line breaks for better readability
+            10. Add 1 relevant emoji per bullet point
+            11. Do not mention that you are an AI
+            12. Do not explain the steps
+            13. Output ONLY the post content
+
+
             """
 
     try: 
