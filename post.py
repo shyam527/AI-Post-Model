@@ -17,16 +17,16 @@ except Exception as e:
 st.title("Boom AI")
 st.markdown("--------")
 
-st.write("Enter your prompt and get your post")
+st.write("Enter your Prompt and get your caption for your Post")
 topic = st.text_area("What is your post about?", placeholder= "Ex: Nature")
 language = st.selectbox(
         "Select Language :", 
-        ["English", "Tamil", "Telugu", "Tanglish"]
+        ["English", "Tamil", "Telugu","Kannada", "Malayalam", "Hindi"]
     )
 
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
-    generate_btn = st.button("Generate AI Post", type="primary")
+    generate_btn = st.button("Generate Caption", type="primary")
 
 if generate_btn:
     if not  topic.strip():
