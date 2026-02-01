@@ -45,16 +45,14 @@ if generate_btn:
             1. Start with a catchy Hook/Headline
             2. Use Bullet Points
             3. Add 5 hashtags
-            4. Keep the post under 120 words
-            5. Use short, punchy sentences
-            6. Avoid generic phrases like "In today’s world"
-            7. Make the tone inspiring and confident
-            8. End with a strong Call-To-Action (question or opinion)
-            9. Use line breaks for better readability
-            10. Add 1 relevant emoji per bullet point
-            11. Do not mention that you are an AI
-            12. Do not explain the steps
-            13. Output ONLY the post content
+            4. Keep the post under 800 words
+            5. Avoid generic phrases like "In today’s world"
+            6. Make the tone inspiring and confident
+            7. End with a strong Call-To-Action (question or opinion)
+            8. Use line breaks for better readability
+            9. Add 1 relevant emoji per bullet point
+            10. Do not mention that you are an AI
+            11. Output ONLY the post content
 
 
             """
@@ -72,7 +70,7 @@ if generate_btn:
 
 
         st.balloons()
-        st.success("Your viral post is ready")
+        st.success("Your caption for the post is ready !")
 
         st.markdown(ai_response)
         st.info("Post it on any Social Media :) ")
