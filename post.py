@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-api_key = "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" 
+#api_key = "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"
 
 try:
     client = Groq(api_key=api_key)  #AI Connection
